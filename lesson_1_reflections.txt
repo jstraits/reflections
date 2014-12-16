@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It allows you to only look through the changes that were made to a file, rather than
+	having to look through an entire document and having to manually sort through what
+	was changed and what wasn't.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can easily go between multiple versions of a file in case changes are made and you
+	want to go back to how things were previously.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually saving is great because you can commit versions as necessary, when they make
+	sense logically. However we are human, and can forget to save at times. Automatic 
+	saving would help with that.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Programming involves multiple files much more than other types of files makes
+	a lot of sense to have one commit when one change could effect multiple files, such 
+	as html and css.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log lets you view all the different versions of a file, including notes for what 
+	was changed. You can then use git diff to compare one version to a previous one and
+	find out exactly which lines are different.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You are more likely willing to make changes that could cause bugs because it's easier
+	to see what exact line caused it, plus it's much easier to see exactly when it was
+	introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git for various future projects where it makes sense to do so.
